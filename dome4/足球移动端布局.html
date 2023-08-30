@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./font/iconfont.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+        html{
+            font-size: 20px;
+        }
+
+        html {
+            font-size: 1.25rem;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            height: 2.5625rem;
+            background: #0cc440;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        header div {
+            width: 3.75rem;
+            height: 1.5rem;
+            text-align: center;
+            line-height: 1.5rem;
+            font-size: .8125rem;
+
+
+        }
+
+        header div:nth-child(1) {
+            background: #63d985;
+            border-radius: .9375rem 0 0 .9375rem;
+            color: white;
+        }
+
+        header div:nth-child(2) {
+            border-radius: 0 .9375rem .9375rem 0;
+            background-color: #3ed065;
+            color: #95f6a9;
+        }
+
+        section {
+            flex: 1;
+            overflow: auto;
+            /* position: relative; */
+        }
+
+        section ul {
+            /* height: 2.1875rem; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: #666666;
+            font-size: .75rem;
+        }
+
+        ul {
+            list-style: none;
+            position: sticky;
+            top: 0;
+            background: white;
+        }
+
+        section ul li {
+            height: 2.1875rem;
+            line-height: 2.1875rem;
+            flex: 1;
+            text-align: center;
+            border-bottom: .0625rem solid #d9d9d9;
+        }
+
+        section ul li:hover {
+            border-bottom: .125rem solid #0ec340;
+            color: #0ec340;
+        }
+
+        section div img {
+            width: 100%;
+        }
+
+        .list {
+
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .list>div {
+            width: 49%;
+            margin-top: .3125rem;
+            border: .0625rem solid #e5e5e5;
+
+        }
+
+        .list div img {
+            width: 100%;
+
+        }
+
+        .list p {
+            height: 1.875rem;
+            line-height: 1.875rem;
+            font-size: .75rem;
+            text-indent: .625rem;
+
+        }
+
+        footer {
+            height: 2.5625rem;
+            background: gray;
+
+        }
+
+        footer ul {
+            display: flex;
+            height: 100%;
+            justify-content: space-around;
+
+        }
+
+        footer ul li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #d6d6d6;
+        }
+
+        footer ul li i {
+            height: 1.3125rem;
+            line-height: 1.3125rem;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        footer ul li span {
+            height: 1.0625rem;
+            line-height: 1.0625rem;
+            text-align: center;
+            font-size: .75rem;
+        }
+
+        footer ul li:hover {
+            color: #0bc643;
+        }
+
+        footer ul li:nth-child(3) {
+            position: relative;
+        }
+
+        footer ul li:nth-child(3) i {
+            width: 3.125rem;
+            height: 3.125rem;
+            border: .0625rem solid #dadfdb;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            margin-left: -1.5625rem;
+            top: -0.625rem;
+            font-size: 1.875rem;
+            text-align: center;
+            line-height: 3.125rem;
+            background-color: white;
+
+
+        }
+        .iconfont{
+            font-size: .8rem;
+        }
+    </style>
+    <script>
+        // fontSize计算
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 320 * 20 + 'px'
+    </script>
+</head>
+
+<body>
+    <header>
+        <div>热点</div>
+        <div>关注</div>
+    </header>
+    <section>
+        <ul>
+            <li>足球现场</li>
+            <li>足球生活</li>
+            <li>足球美女</li>
+        </ul>
+        <div class="list">
+            <div>
+                <img src="pic.png" alt="">
+                <p>小丸子呀</p>
+            </div>
+            <div>
+                <img src="pic.png" alt="">
+                <p>小丸子呀</p>
+            </div>
+            <div>
+                <img src="pic.png" alt="">
+                <p>小丸子呀</p>
+            </div>
+            <div>
+                <img src="pic.png" alt="">
+                <p>小丸子呀</p>
+            </div>
+            <div>
+                <img src="pic.png" alt="">
+                <p>小丸子呀</p>
+            </div>
+            <div>
+                <img src="pic.png" alt="">
+                <p>小丸子呀</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <i class="iconfont icon-shouye"></i>
+                <span>首页</span>
+            </li>
+            <li> <i class="iconfont icon-fangdajing"></i>
+                <span>发现</span>
+            </li>
+            <li> <i class="iconfont icon-zhaoxiangji"></i>
+            </li>
+            <li> <i class="iconfont icon-wode"></i>
+                <span>我的</span>
+            </li>
+            <li> <i class="iconfont icon-tuichu"></i>
+                <span>退出</span>
+            </li>
+
+        </ul>
+    </footer>
+</body>
+
+</html>

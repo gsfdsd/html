@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box{
+            width: 600px;
+            border: 2px solid red;
+            position: relative;
+            overflow: hidden;
+            /* transition: all 2s; */
+        }
+        .box img{
+            width: 100%;
+            display: block;
+            transition: all 2s;
+        }
+        .box h2{
+            position: absolute;
+            left: 15%;
+            top: 60px;
+            transition: all 2s 1s;
+        }
+        .box  p{
+            position: absolute;
+            left: 15%;
+            width: 100px;
+            background: blue;
+            transition: all 2s;
+        
+        }
+        .box .p1{
+            top: 150px;
+            transform: translateX(-600px);
+        }
+        .box .p2{
+            top: 250px;
+            transform: translateY(600px);
+        }
+        .box .p3{
+            top: 350px;
+            transform: translateX(600px);
+        }
+        .box:hover img{
+            transform: translateX(50px);
+            opacity: 0.5;
+        }
+        .box:hover h2{
+            transform: translateX(50px);
+        }
+        .box:hover .p1{
+            transform: translateX(0px);
+        }
+        .box:hover .p2{
+            transform: translateY(0px);
+        }
+        .box:hover .p3{
+            transform: translateX(0px);
+        }
+        
+       
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="1.png" alt="">
+            <h2>tile</h2>
+            <p class="p1">111</p>
+            <p class="p2">222</p>
+            <p class="p3">333</p>
+       
+    </div>
+</body>
+</html>

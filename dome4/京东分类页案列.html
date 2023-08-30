@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            height: 44px;
+            background: gray;
+            overflow: auto;
+         
+        }
+     
+        ul{
+            list-style: none;
+        }
+        section{
+            flex: 1;
+            display: flex;
+            overflow: auto;
+        }
+        section ul{
+            width: 87px;
+            background: #f8f8f8;
+            overflow: auto;
+        }
+        section ul li{
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            font-size: 12px;
+            
+        }
+        section ul li:hover{
+            background-color: white;
+            color: red;
+
+        }
+        section>div{
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            overflow: auto;
+        }
+        section .content>div{
+            width: 33.33%;
+            height: 96px;
+            /* background: red; */
+            text-align: center;
+            /* margin-top: 5px; */
+        }
+        section .content>div img{
+            height: 60px;
+            width: 50px;
+        }
+        footer{
+            height: 50px;
+            background: gray;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        header ul{
+            display: flex;
+        }
+        header ul li{
+            /* flex-shrink: 0; */
+            padding: 0 15px;
+            line-height: 44px;
+            text-align: center;
+            color: white;  
+        }
+        header ul li:hover{
+            color: red;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li> 
+        </ul>
+    </header>
+    <section>
+        <ul>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li>
+            <li>热门推荐</li> 
+        </ul>
+        <div class="content">
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div> <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div> <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div> <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div> <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div> <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div> <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div> <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div> <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div> <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+            <div>
+                <img src="pic01.png" alt="">
+                <p>电脑</p>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
