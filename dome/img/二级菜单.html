@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .mune{
+            width: 300px;
+             margin: 0 auto;
+        }
+        ul{
+          list-style: none;
+        }
+        .mune>li{
+            position: relative;
+            width: 148px;
+            background: blue;
+            float: left;
+            text-align: center;
+            border:1px solid blue ;
+            line-height: 40px;
+            color: white;
+        }
+        .mune>li:hover{
+            background:lightblue;
+        }
+        .mune>li>ul{
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            display: none;
+            color: black;
+            background: white;
+            width: 148px;
+         
+        }
+        .mune>li:hover ul{
+            display: block;
+        }
+        
+        .mune>li li:hover{
+            color:blue;
+        }
+        .body{
+            height: 100px;
+            background: yellow;
+        }
+        .mune::after{
+            content: "aaa";
+            width: 0;
+            height: 0;
+            clear: both;
+            display: block;
+            visibility: hidden;
+            
+
+        }
+     
+    </style>
+</head>
+<body>
+
+        <ul class="mune">
+            <li>音乐
+                <ul>
+                    <li>翻唱</li>
+                    <li>演奏</li>
+                    <li>说唱</li>
+                </ul>
+            </li>
+        
+            <li>生活
+                <ul>
+                    <li>亲子</li>
+                    <li>手工</li>
+                    <li>日常</li>
+                </ul>
+            </li>
+           
+        </ul>
+<div class="body"></div>
+</body>
+</html>

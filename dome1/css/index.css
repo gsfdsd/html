@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    margin: 0 auto;
+    width: 960px;
+}
+.heard{
+   
+    height: 110px;
+    /* background: burlywood; */
+ 
+}
+.logo{
+    width: 260px;
+    height: 108px;
+    float: left;
+    background: url(../img/logo.png);
+}
+.headerright{
+    float: right;
+  
+}
+.headerright li{
+    float:left;
+}
+ul{
+    list-style: none;
+}
+.headerright ul{
+
+    height: 44px;
+   line-height: 30px;
+    margin-top: 12px;
+}
+.headerright  .fonterli{
+    border: 0 ;
+    padding-right: 0; 
+}
+
+.headerright  ul li a{
+    border-right: 1px solid #ffffd7;
+    padding: 0 13px;
+    font-size: 13px;
+    color: #ababab;
+}
+.headerright  ul .re{
+    color: #ed164b;
+}
+.sheard{
+    float: right;
+    width: 234px;
+    height: 28px;
+
+    border:1px solid #d1d1d1;
+}
+.sheard input {
+    border:0;
+    outline: none; 
+}
+.sheard .left{
+    width: 196px;
+    float: left;
+    height: 28px;
+    padding-left:14px;
+}
+
+.sheard .right{
+    float: right;
+    width: 24px;
+    height: 28px;
+    background:url(../img/shead.png) no-repeat left center;
+}
+.banner{
+    height: 53px;
+    line-height: 53px;
+    font-size: 16px;
+    color: white;
+    border-top: #657588;
+    background: #0f365d;
+}
+.nav li{
+   float: left;
+   margin-right: 76px;
+}
+.bg{
+    height: 379px;
+   background: url(../img/bg.png) no-repeat center ; 
+}
+.list{
+
+ height: 213px;
+ /* background: #ed164b; */
+ margin-top: 51px;
+ margin-bottom: 35px;
+}
+.item{
+    float: left;
+    margin-right: 19px;
+    height: 211px;
+    width: 305px;
+    border: 1px solid #cccccc;
+}
+.item p{
+    height: 47px;
+    line-height: 47px;
+    padding-left: 28px;
+}
+.item img{
+    display: block;
+}
+.itemlast{
+    margin-right: 0px;
+}
+.footer{
+    height: 206px;
+    border-top: 1px solid #cccccc;
+    background: url(../img/footer.png);
+}
+.footer ul{
+    height: 144px;
+    padding-top: 30px;
+    line-height: 29px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ecebeb;
+}
+.footer ul li{
+    padding-left: 29px;
+    width: 210px;
+    float: left;
+}
+.footer  p{
+    height: 61px;
+    line-height: 61px;
+    padding-left: 29px;
+}
+.footer p span{
+    color: #0088cc;
+}
